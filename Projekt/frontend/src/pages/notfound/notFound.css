@@ -1,0 +1,34 @@
+.notFound{
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFoundWrapper{
+    height:70%;
+    width: 70%;
+    display: flex;
+}
+
+.notFoundLeft, .notFoundRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notFoundLogo{
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(133, 74, 35);    
+}
+
+.notFoundMessage{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(133, 74, 35);    
+}

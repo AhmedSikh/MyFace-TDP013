@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <title>Twotter, the better bird</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="main">
+      
+      <div class="partition">
+        <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png" alt="Twitter bird">
+        <h1>Twotter</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png" alt="Twitter bird" style="transform: scaleX(-1);-webkit-transform: scaleX(-1);">
+      </div>
+
+      <div class="partition">
+        <textarea id="message" class="form-control" rows="4" placeholder="Max 140 characters..."></textarea>
+        <button id="twot" type="button" class="btn btn-primary">TWOT IT!</button>
+      </div>
+
+      <div id="message_box"></div>
+      
+    </div>
+
+    <div id="error-overlay">
+      <div id="error-message">
+        <p id="error-text">Your input is not allowed</p>
+        <button id="error-button" type="button" class="btn btn-primary">Ok, sorry.</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+Installation prequisites:
+NPM
+
+Steps:
+1. Regardless of what you want to run please open a command line and navigate to the folder containing the index.js file.
+
+2. If you want to run both the server and tests write 
+    "npm install"
+to install all dependencies.
+
+3. When the Installation is complete you can start the server using nodemon by writing 
+    "npm start" 
+or run the test file by writing 
+    "npm test"
+
+PRODUCTION:
+Should you only want to run the server without development dependencies and nodemon please write 
+    "npm install --production" 
+in step 2 and run the server by writing 
+    "node .\index.js"

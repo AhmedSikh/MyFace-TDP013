@@ -1,0 +1,17 @@
+.post{
+    margin-top:1.5em;
+    background-color: burlywood;
+    padding: 1em;
+    padding-left: 1.5em;
+    border-radius: 1em;
+    width:80%;
+}
+.postUsername{
+    font-weight: bold;
+    display:block;
+    color: black;
+}
+.postText{
+    margin-top: 0.5em;
+    display:block;
+}

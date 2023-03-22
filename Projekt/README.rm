@@ -1,0 +1,34 @@
+Installation prequisites:
+NPM
+
+HOW TO RUN:
+
+API server/backend:
+1. Open a command line and navigate to the folder "backend".
+
+2. Write 
+    "npm install"
+to install all dependencies.
+
+3. When the installation is complete you can start the backend server by writing 
+    "npm start" 
+or run the test file by writing 
+    "npm test"
+
+    PRODUCTION:
+    Should you only want to run the server without development dependencies and nodemon please write 
+        "npm install --production" 
+    in step 2 and run the server by writing 
+        "node .\index.js"
+
+Frontend:
+1. Open a command line and navigate to the folder "frontend".
+
+2. Write 
+    "npm install"
+to install all dependencies.
+
+3. When the installation is complete you can start the react-app by writing 
+    "npm start"
+
+4. If the website didn't launch automatically, open a browser of your choice and enter http://localhost:3000 to view the website. 

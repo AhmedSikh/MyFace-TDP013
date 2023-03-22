@@ -1,0 +1,15 @@
+.postFeed{
+    display:flex;
+    flex-direction: column;
+    flex: 4;
+    margin-left: 10%;
+    padding: 1em;
+    border-right: 4px solid burlywood;
+    border-left: 4px solid burlywood;
+    align-items: center;
+}
+
+h2{
+    font-size: 2em !important;
+    color: rgb(44, 25, 0) !important;
+}

@@ -1,0 +1,42 @@
+.newPostContainer{
+    display:flex;
+    flex-direction: column;
+    margin: 3px;
+    padding: 3px;
+    width: 80%;
+}
+.newPostBottom{
+    align-items: right;
+}
+
+.postTextInput{
+    width: 100%;
+    resize: none;
+    overflow: auto;
+    background-color: bisque;
+    color: rgb(44, 25, 0);
+    border: 3px solid rgb(160, 131, 95);
+    outline-color: rgb(160, 131, 95);
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.postTextInput:focus{
+    outline:none;
+    box-shadow: 0 0 0 4px rgba(189, 155, 112, 0.6);
+}
+
+.postButton, .postButton:visited{
+    background-color: burlywood !important;
+    border: 2px solid rgb(173, 142, 102) !important;
+    color: rgb(44, 25, 0) !important;
+    margin-bottom: 1em !important;
+}
+
+.postButton:hover{
+    background-color: rgb(189, 155, 112) !important;
+}
+
+.postButton:focus{
+    box-shadow: 0 0 0 4px rgba(189, 155, 112, 0.6) !important;
+}

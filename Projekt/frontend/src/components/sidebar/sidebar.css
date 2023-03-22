@@ -1,0 +1,70 @@
+.sidebar {
+    flex: 2;
+    min-height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+    position: sticky;
+    top:1em;
+    color: rgb(44, 25, 0) !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
+
+.sidebarWrapper {
+    padding: 2em;
+}
+
+.sidebarTitle{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sidebarHr {
+    margin-bottom: 0.5em;
+}
+
+.sidebarList{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.friendRequest, .friendRequest:visited{
+    display: block !important;
+    background-color: burlywood !important;
+    border: 2px solid rgb(173, 142, 102) !important;
+    color: rgb(44, 25, 0) !important;
+    margin: auto !important;
+    margin-bottom: 1em !important;
+}
+
+.friendRequest:hover{
+    background-color: rgb(189, 155, 112) !important;
+}
+
+.friendRequest:focus{
+    box-shadow: 0 0 0 4px rgba(189, 155, 112, 0.6) !important;
+}
+
+.pendingRequest{
+    color: rgb(44, 25, 0);
+    font-size: 1em;
+    display: block;
+    background-color: burlywood;
+    border: 2px solid rgb(173, 142, 102);
+    padding: 0.5em;
+    width: 80%;
+    text-align: center;
+    margin:auto;
+    border-radius: 0.3em;
+}

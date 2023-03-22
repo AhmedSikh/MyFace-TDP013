@@ -1,0 +1,12 @@
+.result{
+    background-color: burlywood;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.resultUsername{
+    font-weight: bold;
+    display:block;
+    color: black;
+}
